@@ -4,8 +4,8 @@ on:
   push:
 
 jobs:
-  Compila:
-    runs-on: ubunut-latest
+  compila:
+    runs-on: ubuntu-latest
       
     steps: 
       - name: Checkout # Tener copia local del Repo
